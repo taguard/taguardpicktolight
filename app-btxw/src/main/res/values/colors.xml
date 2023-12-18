@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31BDF3</color>
+    <color name="colorPrimaryDark">#00A8E1</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="content">#495060</color>
+    <color name="title">#1c2438</color>
+    <color name="systemTextColor">#61000000</color>
+
+    <color name="colorBlue">#00A8E1</color>
+    <color name="colorBlue3">#EBF9FF</color>
+    <color name="colorRed">#EF5362</color>
+    <color name="colorRedGroup2">#FF0033</color>
+    <color name="colorRedGroup">#FF3333</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="colorGreen">#33FF00</color>
+
+    <color name="app_color_theme_1">#EF5362</color> <!-- Grapefruit -->
+    <color name="app_color_theme_2">#FE6D4B</color> <!-- Bittersweet -->
+    <color name="app_color_theme_3">#FFCF47</color> <!-- Sunflower -->
+    <color name="app_color_theme_4">#9FD661</color> <!-- Grass -->
+    <color name="app_color_theme_5">#3FD0AD</color> <!-- Mint -->
+    <color name="app_color_theme_6">#2BBDF3</color> <!-- Aqua -->
+    <color name="app_color_theme_7">#5A9AEF</color> <!-- Blue Jeans -->
+    <color name="app_color_theme_8">#AC8FEF</color> <!-- Lavender -->
+    <color name="app_color_theme_9">#EE85C1</color> <!-- Pink Rose -->
+    <color name="app_color_theme_10">#66CC99</color> <!-- Green -->
+    <color name="app_color_theme_11">#FFFFFF</color> <!-- White -->
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_frame">#7F1FB3E2</color>
+    <color name="viewfinder_corner">#FF1FB3E2</color>
+    <color name="viewfinder_laser">#FF1FB3E2</color>
+    <color name="viewfinder_result_point_color">#C0FFBD21</color>
+    <color name="viewfinder_text_color">#FFC0C0C0</color>
+
+    <color name="colorBtnNormal">#FFFFFF</color>
+    <color name="colorBtnPressed">#CCC8E9</color>
+    <color name="colorBtnDisable">#33000000</color>
+
+    <color name="colorListRipple">#CCCCCC</color>
+    <color name="colorListNormal">#FFFFFF</color>
+    <color name="colorListPressed">#F3F3F3</color>
+
+    <color name="capture_status_bar_color">#00000000</color>
+    <color name="capture_navigation_bar_color">#00000000</color>
+
+    <color name="material_blue_grey_color_300">#90A4AE</color>
+</resources>

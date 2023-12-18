@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">TAGUARD PICKLT-CN</string>
+    <string name="menu_connect">连接</string>
+
+    <!--region SDK-->
+    <string name="btn_connect_last">连接上次使用的设备</string>
+    <string name="btn_confirm">确认</string>
+    <string name="btn_cancel">取消</string>
+
+    <string name="btn_get_transmission_power">读取发射功率</string>
+    <string name="btn_set_transmission_power">设置发射功率</string>
+    <string name="btn_factory_transmission_power">恢复出厂发射功率</string>
+
+    <string name="title_device_list">附近的设备</string>
+    <string name="title_get_mac">读取设备mac地址</string>
+    <string name="title_get_version">读取设备版本</string>
+    <string name="title_get_power">读取设备电量</string>
+    <string name="title_get_time">读取设备时间</string>
+    <string name="title_set_time">校准设备时间</string>
+    <string name="title_log">日志</string>
+    <string name="title_transmission_setting">功率参数</string>
+    <string name="title_transmission_power">发射功率</string>
+    <string name="title_prompt">提示</string>
+    <string name="title_authenticate">验证</string>
+    <string name="title_get_name">读取设备名称</string>
+    <string name="title_set_name">设置设备名称</string>
+    <string name="title_get_transmission_power">读取发射功率</string>
+    <string name="title_set_transmission_power">设置发射功率</string>
+    <string name="title_get_bluetooth_broadcast_interval">读取蓝牙广播间隔(毫秒)</string>
+    <string name="title_set_bluetooth_broadcast_interval">设置蓝牙广播间隔</string>
+    <string name="title_shut_down">设备关机</string>
+    <string name="title_authenticate_section">验证后可操作</string>
+    <string name="title_normal_section">普通操作</string>
+    <string name="title_lighting">亮灯(BT01)</string>
+    <string name="title_beeping">发声(慎用，消耗电量较大)</string>
+    <string name="title_two_lighting">双色亮灯(BT07)</string>
+    <string name="title_multiple_lighting">多彩亮灯(BT08&amp;BT11)</string>
+    <string name="title_multiple_choose_lighting">多彩指示亮灯(BT08&amp;BT11)</string>
+    <string name="title_effective_second">持续时间(秒)</string>
+    <string name="title_refresh">请下拉刷新获取标签</string>
+    <string name="title_hint_data_range">0&#8211;100</string>
+    <string name="title_hint_input_effective_second">请输入持续时间(秒)</string>
+    <string name="title_broadcast">蓝牙广播内容</string>
+
+    <string name="toast_to_connect">请连接设备</string>
+    <string name="toast_ble_connect">已连接</string>
+    <string name="toast_ble_disconnect">已断开</string>
+    <string name="toast_ble_none">无记录</string>
+    <string name="toast_permission_denied">权限被拒绝</string>
+    <string name="toast_permission_error">权限申请异常</string>
+    <string name="toast_command_success">成功</string>
+    <string name="toast_command_failed">失败:%1$d</string>
+    <string name="toast_authenticated">无需重复认证</string>
+    <string name="toast_open_gps">搜索蓝牙需要打开定位服务</string>
+    <string name="toast_effective_seconds_range">输入范围是1&#8211;250</string>
+    <string name="toast_effective_broadcast_interval_range">输入范围是50&#8211;1000</string>
+
+    <string name="content_confirm_disconnect">断开设备连接？</string>
+    <string name="content_need_auth">请先验证</string>
+    <string name="content_input_name_placeholder">请输入字符名称(最长17个字符)</string>
+    <string name="content_input_effective_seconds">请输入持续时长(1&#8211;250秒)</string>
+    <string name="content_transmission_power_limit">部分设备可支持设置发送功率</string>
+    <string name="content_unknown">未知</string>
+    <string name="content_input_broadcast_interval_placeholder">50毫秒-1000毫秒,以10毫秒递增</string>
+
+    <string name="config_transmission_power">%1$.1fdBm</string>
+
+    <string name="lighting_red">红灯</string>
+    <string name="lighting_blue">蓝灯</string>
+    <string name="lighting_red_blue">红灯和蓝灯</string>
+
+    <string name="lighting_all">所有灯</string>
+    <string name="lighting_yellow_green">黄灯和绿灯</string>
+    <string name="lighting_purple_group">紫灯</string>
+    <string name="lighting_red_group">红灯</string>
+    <string name="lighting_white_group">白灯</string>
+    <string name="lighting_yellow_group">黄灯</string>
+    <string name="lighting_blue_group">蓝灯</string>
+    <string name="lighting_red_group1">红灯1</string>
+    <string name="lighting_orange_group">橙灯</string>
+    <!--endregion-->
+
+    <!--region 寻物演示-->
+    <string name="btn_find_once">单次寻物</string>
+    <string name="btn_find_continuity_start">开始寻物</string>
+    <string name="btn_find_continuity_stop">结束寻物</string>
+    <string name="btn_find_countdown">寻物中(%1$s秒)</string>
+    <string name="btn_select_tag">选择标签</string>
+    <string name="btn_finish_binding">完成绑定</string>
+    <string name="btn_demonstration">多标签演示</string>
+    <string name="btn_light">闪灯</string>
+    <string name="btn_light_setting">闪灯配置</string>
+
+    <string name="title_bind">绑定标签</string>
+    <string name="title_bound">已绑标签</string>
+    <string name="title_bound_good">已绑物品</string>
+    <string name="title_find_long_range">远距离寻物</string>
+    <string name="title_find_close_range">近距离寻物</string>
+    <string name="title_scan_code">扫码</string>
+    <string name="title_lighting_demo">BT11灯光演示</string>
+    <string name="title_hint_lighting_time">点亮时长</string>
+
+    <string name="content_find_lighting">---标签已开启声光提示---</string>
+    <string name="content_find_prompt">信号值大于 -70dBm 时连接标签，
+        信号值越大，距离标签越近</string>
+    <string name="content_find_start">---寻物开始---</string>
+    <string name="content_find_stop">---寻物结束---</string>
+    <string name="content_current_signal">当前信号值: %1$s dBm</string>
+    <string name="content_good">物品: %1$s</string>
+    <string name="content_number">编号: %1$s</string>
+    <string name="content_tag">标签: %1$s</string>
+    <string name="content_mac">MAC: %1$s</string>
+    <string name="content_select_to_delete">请选择想要删除的物品或标签</string>
+    <string name="content_select_to_find">请选择想要寻找的物品</string>
+    <string name="content_confirm_delete">删除绑定信息？</string>
+    <string name="content_scan_prompt">请将条形码/二维码尽量靠近扫描框，以达到最佳扫描效果</string>
+    <string name="content_selected_tag">选择的标签:</string>
+    <string name="content_to_bind">请确认标签是否亮灯，确认后点击下方“完成绑定”按钮</string>
+    <string name="content_bound">绑定已完成</string>
+
+    <string name="edit_hint_finding_time">寻物提示时间(3&#8211;20秒)</string>
+    <string name="edit_hint_good">物品名称</string>
+    <string name="edit_hint_number">物品编号(可选)</string>
+    <string name="edit_hint_search">请输入搜索内容</string>
+
+    <string name="toast_no_tag_info">无此标签信息</string>
+    <string name="toast_time_input_limit">时间须在3&#8211;20间</string>
+    <string name="toast_finding">寻物中</string>
+    <string name="toast_total_result">共%1$s条结果</string>
+    <string name="toast_deleted">删除成功</string>
+    <string name="toast_connecting">连接中</string>
+    <string name="toast_input_name">请输入物品名称</string>
+    <string name="toast_select_tag">请选择标签</string>
+    <string name="toast_tag_bound">标签不能重复绑定</string>
+    <string name="toast_bind_complete">绑定完成</string>
+    <string name="toast_to_find">请点击"开始寻物"按钮</string>
+    <string name="toast_choose_tag_type">已选择 %1$s</string>
+    <string name="toast_input_lighting_seconds">请输入点亮时长(1&#8211;250秒)</string>
+    <!--endregion-->
+
+    <!--region 扫码-->
+    <string name="scan_allcode_hint">将二维码或条形码对入取景框，即可自动扫描</string>
+    <!--endregion-->
+
+    <!--region BT系列广播-->
+    <string name="menu_scan">扫描</string>
+    <string name="menu_stop_scan">停止扫描</string>
+    <string name="menu_filter">过滤</string>
+
+    <string name="bt_pressed">按下</string>
+    <string name="bt_not_pressed">未按下</string>
+    <string name="bt_vibrating">震动中</string>
+    <string name="bt_not_vibrate">未震动</string>
+    <string name="bt_moving">移动中</string>
+    <string name="bt_resting">静止</string>
+    <string name="bt_tampered">已拆除</string>
+    <string name="bt_not_tampered">未拆除</string>
+
+    <string name="hint_no_filter">未过滤</string>
+    <string name="hint_filter_by_address">过滤MAC</string>
+
+    <string name="title_filter_condition">过滤条件:</string>
+    <!--endregion-->
+</resources>

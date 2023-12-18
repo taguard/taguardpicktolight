@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">TAGUARD PICKLT</string>
+    <string name="menu_connect">connect</string>
+
+    <!--region SDK-->
+    <string name="btn_connect_last">Connect Last Device</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="btn_get_transmission_power">Get Transmission Power</string>
+    <string name="btn_set_transmission_power">Set Transmission Power</string>
+    <string name="btn_factory_transmission_power">Factory Transmission Power</string>
+
+    <string name="title_device_list">Devices</string>
+    <string name="title_get_mac">Get Mac</string>
+    <string name="title_get_version">Get Version</string>
+    <string name="title_get_power">Get Power</string>
+    <string name="title_get_time">Get Time</string>
+    <string name="title_set_time">Adjust Time</string>
+    <string name="title_log">Show Log</string>
+    <string name="title_transmission_setting">Transmission Setting</string>
+    <string name="title_transmission_power">Transmission Power</string>
+    <string name="title_prompt">Prompt</string>
+    <string name="title_authenticate">Authenticate</string>
+    <string name="title_get_name">Get Name</string>
+    <string name="title_set_name">Set Name</string>
+    <string name="title_get_transmission_power">Get Transmission Power</string>
+    <string name="title_set_transmission_power">Set Transmission Power</string>
+    <string name="title_get_bluetooth_broadcast_interval">Get Ble Broadcast Interval(ms)</string>
+    <string name="title_set_bluetooth_broadcast_interval">Set Ble Broadcast Interval</string>
+    <string name="title_shut_down">Shut Down Device</string>
+    <string name="title_authenticate_section">Unlock Functions After Authentication</string>
+    <string name="title_normal_section">Normal Operation</string>
+    <string name="title_lighting">Lighting(BT01)</string>
+    <string name="title_beeping">Beeping</string>
+    <string name="title_two_lighting">Two Lighting(BT07)</string>
+    <string name="title_multiple_lighting">Multiple Lighting(BT08&amp;BT11)</string>
+    <string name="title_multiple_choose_lighting">Multiple Lighting2(BT08&amp;BT11)</string>
+    <string name="title_effective_second">Effective seconds</string>
+    <string name="title_refresh">Please pull down refresh to get the Tags</string>
+    <string name="title_hint_data_range">0&#8211;100</string>
+    <string name="title_hint_input_effective_second">Please input effectivesecond(Dec)</string>
+    <string name="title_broadcast">Broadcast Content</string>
+
+    <string name="toast_to_connect">please connect device</string>
+    <string name="toast_ble_connect">connected</string>
+    <string name="toast_ble_disconnect">disconnected</string>
+    <string name="toast_ble_none">none</string>
+    <string name="toast_permission_denied">permissions denied</string>
+    <string name="toast_permission_error">permissions error</string>
+    <string name="toast_command_success">success</string>
+    <string name="toast_command_failed">failed:%1$d</string>
+    <string name="toast_authenticated">authenticated</string>
+    <string name="toast_open_gps">open Gps to search bluetooth.</string>
+    <string name="toast_effective_seconds_range">input range from 1 to 250</string>
+    <string name="toast_effective_broadcast_interval_range">input range from 50 to 1000</string>
+
+    <string name="content_confirm_disconnect">Disconnect Device?</string>
+    <string name="content_need_auth">please auth</string>
+    <string name="content_input_name_placeholder">(max 17 characters)</string>
+    <string name="content_input_effective_seconds">Effective seconds(1&#8211;250)</string>
+    <string name="content_transmission_power_limit">Some device supports setting feature.</string>
+    <string name="content_unknown">Unknown</string>
+    <string name="content_input_broadcast_interval_placeholder">50ms-1000ms, step 10ms</string>
+
+    <string name="config_transmission_power">%1$.1fdBm</string>
+
+    <string name="lighting_red">Red Light</string>
+    <string name="lighting_blue">Blue Light</string>
+    <string name="lighting_red_blue">Red Light and Blue Light</string>
+
+    <string name="lighting_all">All Lights</string>
+    <string name="lighting_yellow_green">Yellow Light and Green Lights</string>
+    <string name="lighting_purple_group">Purple Lights</string>
+    <string name="lighting_red_group">Red Lights</string>
+    <string name="lighting_white_group">White Lights</string>
+    <string name="lighting_yellow_group">Yellow Lights</string>
+    <string name="lighting_blue_group">Blue Lights</string>
+    <string name="lighting_red_group1">Red 1 Lights</string>
+    <string name="lighting_orange_group">Orange Lights</string>
+    <!--endregion-->
+
+    <!--region Find demo-->
+    <string name="btn_find_once">Find Once</string>
+    <string name="btn_find_continuity_start">Start Finding</string>
+    <string name="btn_find_continuity_stop">Stop Finding</string>
+    <string name="btn_find_countdown">Finding(%1$ss)</string>
+    <string name="btn_select_tag">Select Tag</string>
+    <string name="btn_finish_binding">Finish Binding</string>
+    <string name="btn_demonstration">Multi Tags Demonstration</string>
+    <string name="btn_light">Flash Light</string>
+    <string name="btn_light_setting">Light Setting</string>
+
+    <string name="title_bind">Bind Tag</string>
+    <string name="title_bound">Bound Tags</string>
+    <string name="title_bound_good">Bound Goods</string>
+    <string name="title_find_long_range">Long-Range Finding</string>
+    <string name="title_find_close_range">Close-Range Finding</string>
+    <string name="title_scan_code">Scan Code</string>
+    <string name="title_lighting_demo">BT11 Light Demo</string>
+    <string name="title_hint_lighting_time">Lighting time</string>
+
+    <string name="content_find_lighting">---Tag is lighting and beeping---</string>
+    <string name="content_find_prompt">Connect tag when the signal value is greater than -70dBm.
+        The larger the signal value, the closer to the tag</string>
+    <string name="content_find_start">---Start finding---</string>
+    <string name="content_find_stop">---Stop finding---</string>
+    <string name="content_current_signal">Current signal: %1$s dBm</string>
+    <string name="content_good">Good: %1$s</string>
+    <string name="content_number">No.: %1$s</string>
+    <string name="content_tag">Tag: %1$s</string>
+    <string name="content_mac">MAC: %1$s</string>
+    <string name="content_select_to_delete">Select item to delete</string>
+    <string name="content_select_to_find">Select item to find</string>
+    <string name="content_confirm_delete">Delete the binding information?</string>
+    <string name="content_scan_prompt">Get close to the barcode or QR code</string>
+    <string name="content_selected_tag">Selected tag:</string>
+    <string name="content_to_bind">Check the tag is lighting, and click the button "Finish Binding" to finish binding.</string>
+    <string name="content_bound">Binding is finished.</string>
+
+    <string name="edit_hint_finding_time">Lighting and Beeping time(3&#8211;20 seconds)</string>
+    <string name="edit_hint_good">Good name</string>
+    <string name="edit_hint_number">Good No.(Optional)</string>
+    <string name="edit_hint_search">Input search content</string>
+
+    <string name="toast_no_tag_info">No tag info</string>
+    <string name="toast_time_input_limit">Time limit is 3&#8211;20 seconds</string>
+    <string name="toast_finding">Finding</string>
+    <string name="toast_total_result">%1$s results</string>
+    <string name="toast_deleted">Deleted</string>
+    <string name="toast_connecting">Connecting</string>
+    <string name="toast_input_name">Please input name</string>
+    <string name="toast_select_tag">Please select tag</string>
+    <string name="toast_tag_bound">Tag has been bound already</string>
+    <string name="toast_bind_complete">Binding complete</string>
+    <string name="toast_to_find">Please click "Start Finding" button</string>
+    <string name="toast_choose_tag_type">%1$s chosen</string>
+    <string name="toast_input_lighting_seconds">Lighting time(1&#8211;250 seconds)</string>
+    <!--endregion-->
+
+    <!--region scan code-->
+    <string name="scan_allcode_hint">Put the two-dimensional code or bar code into the frame.</string>
+    <!--endregion-->
+
+    <!--region BT broadcast-->
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop_scan">Stop Scan</string>
+    <string name="menu_filter">Filter</string>
+
+    <string name="bt_pressed">Pressed</string>
+    <string name="bt_not_pressed">Not Pressed</string>
+    <string name="bt_vibrating">Vibrating</string>
+    <string name="bt_not_vibrate">Not Vibrate</string>
+    <string name="bt_moving">Moving</string>
+    <string name="bt_resting">Not Moving</string>
+    <string name="bt_tampered">Tampered</string>
+    <string name="bt_not_tampered">Not Tampered</string>
+
+    <string name="hint_no_filter">No filter</string>
+    <string name="hint_filter_by_address">Filter by address</string>
+
+    <string name="title_filter_condition">Filter:</string>
+    <!--endregion-->
+</resources>

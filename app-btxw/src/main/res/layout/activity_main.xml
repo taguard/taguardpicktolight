@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:onClick="startBingingActivity"
+            android:text="@string/title_bind"
+            app:qmui_radius="4dp"/>
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:onClick="startFindingOnceActivity"
+            android:text="@string/title_find_close_range"
+            app:qmui_radius="4dp"/>
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:onClick="startFindingContinuityActivity"
+            android:text="@string/title_find_long_range"
+            app:qmui_radius="4dp"/>
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:onClick="startDemonstrationActivity"
+            android:text="@string/btn_demonstration"
+            app:qmui_radius="4dp"/>
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:onClick="startDemoActivity"
+            android:text="@string/title_lighting_demo"
+            app:qmui_radius="4dp"
+            />
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:onClick="startSDKActivity"
+            android:text="SDK"
+            android:textColor="@color/colorRed"
+            app:qmui_radius="4dp"
+            app:qmui_borderColor="@color/colorRed"/>
+
+        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:onClick="startBroadcastResultActivity"
+            android:text="@string/title_broadcast"
+            android:textColor="@color/colorRed"
+            app:qmui_radius="4dp"
+            app:qmui_borderColor="@color/colorRed"/>
+
+    </LinearLayout>
+
+</ScrollView>

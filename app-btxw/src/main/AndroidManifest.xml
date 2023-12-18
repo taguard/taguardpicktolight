@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bracelet.btxw">
+
+    <!--region ble-->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!--endregion-->
+
+    <!--region camera-->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <!--endregion-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:name="com.bracelet.btxw.view.BleApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.activity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.activity.BaseActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".view.activity.SDKMainActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+        <activity android:name=".view.activity.TransmissionPowerActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+        <activity android:name=".view.activity.DemonstrationActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+        <activity android:name=".view.activity.FindingTagContinuityActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+        <activity android:name=".view.activity.FindingTagOnceActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+        <activity android:name=".view.activity.BindingTagListActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name=".view.activity.BindingTagActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name=".view.activity.ReportActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+        <activity android:name=".view.activity.LightingDemoActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+        <activity android:name=".view.activity.LivePreviewActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+        <activity android:name=".view.activity.BroadcastResultActivity" android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+    </application>
+
+</manifest>

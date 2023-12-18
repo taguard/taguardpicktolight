@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="QMUI.Compat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CaptureTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+    </style>
+
+    <style name="NormalTextView" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="ColorRedGroup2Button">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/btn_red_group2_color</item>
+    </style>
+
+    <style name="ColorWhiteButton">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/btn_white_color</item>
+    </style>
+
+    <style name="ColorYellowButton">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/btn_yellow_color</item>
+    </style>
+
+    <style name="ColorOrangeButton">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/btn_orange_color</item>
+    </style>
+
+    <style name="ColorPurpleButton">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/btn_purple_color</item>
+    </style>
+
+    <style name="ColorBlueButton">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/btn_blue_color</item>
+    </style>
+
+    <style name="LayoutLightView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:background">@drawable/layout_light_view</item>
+    </style>
+
+    <style name="LightViewLine">
+        <item name="android:background">@drawable/light_view_line</item>
+    </style>
+
+</resources>
